@@ -670,9 +670,9 @@ svg{
 
 .working{
   display: grid;
-  grid-template-columns: repeat(8, 120px);
+  grid-template-columns: repeat(8, 110px);
   grid-template-rows: minmax(100px, auto) repeat(3, 200px);
-  width: 960px;
+  width: 880px;
   padding: 0 auto;
 
 }
