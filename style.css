@@ -209,7 +209,7 @@ main{
 }
 
 
-@media only screen and (max-width:993px) and (min-width:592px){
+@media (max-width:993px) and (min-width:592px){
 
   .intro-left-s{
     width: 500px;
@@ -239,7 +239,7 @@ main{
   }
 }
 
-@media only screen and (max-width:592px){
+@media (max-width:592px){
   main .head{
     text-align: center;
     margin-top: 0;
@@ -254,7 +254,7 @@ main{
 }
 
 
-@media only screen and (max-width:607px){
+@media (max-width:607px){
   .header-top{
     text-align: center;
     background-color: #FFD929;
@@ -565,7 +565,20 @@ svg{
   .license .container-fluid .grid .xyz{
     grid-column: 2 /5;
     grid-row: 13/ 24;
+  }
+  p.license-p1{
+    font-size: 24px;
+  }
 
+  .big-content li{
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #demo{
+    color: red;
   }
 }
 
@@ -579,6 +592,26 @@ svg{
   .license .container-fluid .grid .big .big-content{
     padding-top: 30px;
   }
+
+  .big-content h4{
+    font-weight: 900;
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width:471px) {
+  .xyz .small-content .p1{
+    font-size: 22px;
+  }
+
+  .xyz .small-content .p2{
+    font-size: 28px;
+  }
+
+  .xyz .small-content .p3{
+    font-size: 32px;
+  }
+
 }
 
 /* working */
