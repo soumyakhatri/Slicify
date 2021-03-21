@@ -429,6 +429,9 @@ a.button{
   border-style: solid;
   text-decoration: none;
   color: black;
+  font-size: 18px;
+  display: block;
+  text-align: center;
 }
 
 .paypal-div{
@@ -442,7 +445,11 @@ a.button:hover{
   background-color: grey;
   color:white;
   border-color: grey;
-  transform: scale(2, 3);
+  transform: scale(1.1, 1.1);
+  transform: translateY(-7px);
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 
 svg{
@@ -485,7 +492,25 @@ svg{
 
 
 
+@media only screen and (max-width:1100px){
+  .license .container-fluid{
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  .small{
+    box-shadow: 0px 0px 5px 0px rgba(169,166,166,0.34);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(169,166,166,0.34);
+-moz-box-shadow: 0px 0px 5px 0px rgba(169,166,166,0.34);
+  }
+}
+
 @media only screen and (max-width:1100px) and (min-width:1000px) {
+
+  .license .grid{
+    grid-template-rows: repeat(11, 1fr)
+  }
 
   .license .container-fluid .big{
     grid-column: 1 / 13;
@@ -520,7 +545,7 @@ svg{
 
   .license .grid{
     display: grid;
-    grid-template-rows: repeat(24, 1fr);
+    grid-template-rows: repeat(23, 1fr);
     grid-template-columns: 10% 10% 1fr 10% 10%;
     padding: 0;
   }
@@ -562,9 +587,23 @@ svg{
 }
 
 @media only screen and (max-width:566px) {
+
+  .license .container-fluid{
+    padding: 0;
+  }
+
+  .license .container-fluid .grid .big .big-content{
+    padding-top: 50px;
+  }
+
   .license .container-fluid .grid .xyz{
     grid-column: 2 /5;
-    grid-row: 13/ 24;
+    grid-row: 14/ 23;
+    margin-top: 20px;
+  }
+
+  .license .container-fluid .grid{
+    grid-template-rows: repeat(22, 1fr);
   }
   p.license-p1{
     font-size: 24px;
