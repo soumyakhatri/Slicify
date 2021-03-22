@@ -840,7 +840,11 @@ svg{
   top: 50px;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:1020px) {
+
+  .working .heading{
+    padding-right: 10%;
+  }
 
 
   .working-section .working{
@@ -953,24 +957,6 @@ svg{
 }
 
 
-
-@media only screen and (max-width:1100px) and (min-width:568px) {
-  .working .heading{
-    padding: 0 15%;
-  }
-  .working .heading .heading-content h4{
-    /* font-size: 24px; */
-  }
-}
-
-@media only screen and (max-width:568px) {
-  .working .heading{
-    padding: 0 7%;
- }
- .working .heading .heading-content h4{
-   font-size: 20px;
- }
-}
 
 /* working */
 
