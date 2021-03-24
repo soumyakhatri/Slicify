@@ -392,10 +392,10 @@ main {
 }
 
 a.button {
-  border-radius: 15px;
+  border-radius: 25px;
   border-color: black;
   border-width: 1px;
-  padding: 7px 18px;
+  padding: 7px 24px;
   font-weight: 100;
   border-style: solid;
   text-decoration: none;
@@ -403,8 +403,12 @@ a.button {
   font-size: 18px;
   display: block;
   text-align: center;
-}
 
+}
+a.button i{
+  margin-left: 20px;
+  margin-bottom: 0;
+}
 .paypal-div {
   margin-top: 10px;
   margin-bottom: 30px;
@@ -419,7 +423,7 @@ a.button:hover {
   transform: translateY(-7px);
   transition-delay: 0.1s;
   transition-duration: 0.2s;
-  transition-timing-function: linear;
+  transition-timing-function: ease-out;
 }
 
 /* .tilted{
@@ -752,8 +756,8 @@ a.button:hover {
   grid-column: 3/4;
   position: relative;
   align-self: center;
-  width: 95%;
-  transform: rotate(-90deg);
+  width: 35%;
+  transform: rotate(-70deg);
 }
 
 .svg2 {
@@ -990,14 +994,14 @@ a.button:hover {
   .svg2-main {
     position: relative;
     top: 20px;
-    right: 100px;
+    right: 80px;
     z-index: 3;
     grid-row: 3/ 5;
     grid-column: 1/2;
     position: relative;
     align-self: center;
     width: 95%;
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
   }
 
   .svg2 {
@@ -1436,34 +1440,47 @@ span.carousel-control-next-icon {
   }
 }
 
-/* review button */
-/* .review-button a{
-  text-decoration: none;
-  background-color: #FA3B98;
-  padding: 8px 20px;
-  border-radius: 20px;
-  color: white;
-  font-weight: 300;
-}
 
-/*.professions{
+
+
+/* Professions */
+
+
+
+
+.professions{
   background-color: #F9F9F9;
+  padding-top: 70px;
+  padding-bottom: 70px;
 
 }
 .professions .left{
+  justify-items: center;
+  justify-content: center;
+
 }
+.professions .left .up {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 155px);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap:20px 20px;
+  padding: 0 10px;
+
+}
+
 
 .professions .right{
-
+  text-align: left;
+  justify-items: center;
+  padding: 0 40px;
 }
 
-.Photographers, .Designers, .Ecommerce{
-  display: inline-block;
+.Photographers, .Designers, .Ecommerce, .Car-Dealers, .Individuals, .Coders{
   width: 155px;
   height: 160px;
   background-color: white;
   border-radius: 25px;
-  margin: 0 8px;
   text-align: center;
   vertical-align: middle;
   color: #8D8D8D;
@@ -1473,34 +1490,65 @@ span.carousel-control-next-icon {
 -moz-box-shadow: 0px 0px 29px -16px rgba(123,119,119,0.75);
 }
 
-.Car-Dealers, .Individuals, .Coders{
-  display: inline-block;
-  width: 155px;
-  height: 160px;
-  background-color: white;
-  border-radius: 25px;
-  margin: 16px 8px;
-  text-align: center;
-  color: #8D8D8D;
-
-  box-shadow: 0px 0px 29px -16px rgba(123,119,119,0.75);
--webkit-box-shadow: 0px 0px 29px -16px rgba(123,119,119,0.75);
--moz-box-shadow: 0px 0px 29px -16px rgba(123,119,119,0.75);
-
+.Photographers:hover, .Designers:hover, .Ecommerce:hover, .Car-Dealers:hover, .Individuals:hover, .Coders:hover{
+  background-color: #3C42FB;
+  color: #fff;
 }
-
-.down {
-  margin-top: 8px;
+.Photographers{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  justify-self:center;
+  align-self: center;
 }
 
 .Designers{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  justify-self:center;
+  align-self: center;
+}
+
+.Ecommerce{
+  grid-row: 1/2;
+  grid-column: 3/4;
+  justify-self:center;
+  align-self: center;
+}
+
+.Car-Dealers{
+  grid-row: 2/3;
+  grid-column: 1/2;
+  justify-self:center;
+  align-self: center;
+}
+
+.Individuals{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self:center;
+  align-self: center;
+}
+
+.Coders{
+  grid-row: 2/3;
+  grid-column: 3/4;
+  justify-self:center;
+  align-self: center;
+}
+
+/* .Designers{
   background-color: #3C42FB;
   color: white;
 } */
+
+.professions i{
+  margin-bottom: 20px;
+}
+
 /* right */
-/* .professions .right .content{
-  padding-right: 180px;
-  padding-left: 90px;
+ .professions .right .content{
+  /* padding-right: 180px;
+  padding-left: 90px; */
   height: 370px;
   position: relative;
   top: 30px;
@@ -1512,6 +1560,7 @@ span.carousel-control-next-icon {
 }
 
 .professions .right .para{
+  margin-top: 20px;
   line-height: 1.6;
   font-size: 18px;
   font-weight: 300;
@@ -1519,7 +1568,7 @@ span.carousel-control-next-icon {
 }
 
 .professions .right .button{
-  padding-top: 40px;
+  display: inline-block;
 }
 
 .professions .right span{
@@ -1532,7 +1581,139 @@ span.carousel-control-next-icon {
   text-decoration: none;
   color: black;
 }
- */
+
+i.icon-small{
+  margin-bottom: 0;
+  display: none;
+}
+
+
+@media (max-width:991px) and (min-width:768px) {
+  .professions .right{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  i.icon-small{
+    margin-bottom: 0;
+    display: none;
+  }
+}
+
+@media (max-width:624px) {
+
+  i.icon-large{
+    display: none;
+  }
+
+  i.icon-small{
+    margin-bottom: 0;
+    display: block;
+
+  }
+
+  .professions-section .left .up{
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 94px 94px 94px;
+    border-radius: 10px;
+
+
+  }
+  .Photographers{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    justify-self:center;
+    align-self: center;
+    width: 94px;
+    height: 94px;
+    border-radius: 10px;
+    padding-top: 20px;
+
+
+  }
+
+  .Designers{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    justify-self:center;
+    align-self: center;
+    width: 94px;
+    height: 94px;
+    border-radius: 10px;
+    padding-top: 20px;
+
+  }
+
+  .Ecommerce{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    justify-self:center;
+    align-self: center;
+    width: 94px;
+    height: 94px;
+    border-radius: 10px;
+    padding-top: 20px;
+
+  }
+
+  .Car-Dealers{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    justify-self:center;
+    align-self: center;
+    width: 94px;
+    height: 94px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-center: start;
+    align-items: center;
+    padding-top: 20px;
+
+  }
+
+  .Individuals{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self:center;
+    align-self: center;
+    width: 94px;
+    height: 94px;
+    border-radius: 10px;
+    padding-top: 20px;
+
+  }
+
+  .Coders{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    justify-self:center;
+    align-self: center;
+    width: 94px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 20px;
+
+  }
+
+
+
+  .up img{
+    width: 30%;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .up p{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
 /* features */
 /* .features{
   text-align: center;
