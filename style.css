@@ -1499,6 +1499,8 @@ span.carousel-control-next-icon {
   grid-column: 1/2;
   justify-self:center;
   align-self: center;
+  position: relative;
+  z-index: 1;
 }
 
 .Designers{
@@ -1506,6 +1508,8 @@ span.carousel-control-next-icon {
   grid-column: 2/3;
   justify-self:center;
   align-self: center;
+  position: relative;
+  z-index: 1;
 }
 
 .Ecommerce{
@@ -1513,6 +1517,8 @@ span.carousel-control-next-icon {
   grid-column: 3/4;
   justify-self:center;
   align-self: center;
+  position: relative;
+  z-index: 1;
 }
 
 .Car-Dealers{
@@ -1520,6 +1526,8 @@ span.carousel-control-next-icon {
   grid-column: 1/2;
   justify-self:center;
   align-self: center;
+  position: relative;
+  z-index: 1;
 }
 
 .Individuals{
@@ -1527,6 +1535,8 @@ span.carousel-control-next-icon {
   grid-column: 2/3;
   justify-self:center;
   align-self: center;
+  position: relative;
+  z-index: 1;
 }
 
 .Coders{
@@ -1534,12 +1544,11 @@ span.carousel-control-next-icon {
   grid-column: 3/4;
   justify-self:center;
   align-self: center;
+  position: relative;
+  z-index: 1;
 }
 
-/* .Designers{
-  background-color: #3C42FB;
-  color: white;
-} */
+
 
 .professions i{
   margin-bottom: 20px;
@@ -1547,8 +1556,6 @@ span.carousel-control-next-icon {
 
 /* right */
  .professions .right .content{
-  /* padding-right: 180px;
-  padding-left: 90px; */
   height: 370px;
   position: relative;
   top: 30px;
@@ -1586,6 +1593,7 @@ i.icon-small{
   margin-bottom: 0;
   display: none;
 }
+
 
 
 @media (max-width:991px) and (min-width:768px) {
@@ -1712,6 +1720,26 @@ i.icon-small{
     font-size: 12px;
     margin-top: 10px;
   }
+  .svg2-p{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    justify-self:end;
+    align-self: end;
+    position: relative;
+    left: 30px;
+    top: 30px;
+  }
+
+  .svg1-p{
+    grid-row: 1 /2 ;
+    grid-column: 1/2;
+    justify-self:start;
+    align-self: start;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+  }
+
 }
 
 /* features */
