@@ -1103,7 +1103,7 @@ a.button:hover{
   padding-left:15%; */
   margin: 0 auto;
   width: 1051px;
-
+  /* background-color: grey; */
 }
 
 .carousel-inner{
@@ -1128,12 +1128,14 @@ a.button:hover{
 -webkit-box-shadow: 0px 0px 11px 0px rgba(123,119,119,0.38);
 -moz-box-shadow: 0px 0px 11px 0px rgba(123,119,119,0.38);
 }
-}
 
-.abc{
+
+span.carousel-control-prev-icon{
 color: #3C42FB;
 }
-
+span.carousel-control-next-icon{
+color: #3C42FB;
+}
 
 
 .review .main-content h4{
@@ -1282,13 +1284,119 @@ color: #3C42FB;
 
 }
 
+.carousel-indicators li{
+  color: black;
+}
+
+
+@media only screen and (max-width:768px) {
+
+  .review{
+    background-color: #F9F9F9;
+  }
+  .review-heading{
+    padding:55px 10px 55px 10px;
+  }
+  .review-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 302px 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    grid-column-gap: 0px;
+    width: auto;
+
+  }
+
+  .review .review-grid .main-content{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    width: 302px;
+    justify-self:center;
+    margin: 0 auto;
+  }
+
+  .review-button-section{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    justify-self:center;
+    /* display: none; */
+  }
+
+  .svg12-r{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    align-self: center;
+  }
+.svg9-r{
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+.svg10-r{
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+.svg11-r{
+  grid-row: 1/2;
+  grid-column: 5/6;
+  align-self:center;
+  justify-self:center;
+}
+
+  .svg1-r, .svg2-r, .svg3-r, .svg4-r, .svg5-r, .svg6-r, .svg7-r, .svg8-r
+      {
+        display: none;
+      }
+}
+
+@media (max-width:480px) {
+  .svg1-r, .svg2-r, .svg3-r, .svg4-r, .svg5-r, .svg6-r, .svg7-r, .svg8-r,
+  .svg10-r, .svg11-r, .svg12-r
+      {
+        display: none;
+      }
+  .review-grid{
+    display: grid;
+    grid-template-columns: 302px;
+    grid-template-rows: 3fr 1fr;
+    grid-column-gap: 0px;
+    width: auto;
+    justify-content: center;
+  }
+  .review .review-grid .main-content{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 302px;
+    justify-self:center;
+    margin: 0 auto;
+  }
+
+  .review-button-section{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    justify-self:center;
+    /* display: none; */
+  }
+  .svg9-r{
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+
+}
 
 
 
 
+/* review button */
 
+/* .review-button a{
+  text-decoration: none;
+  background-color: #FA3B98;
+  padding: 8px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 300;
+}
 
-/* .professions{
+/*.professions{
   background-color: #F9F9F9;
 
 }
