@@ -438,8 +438,6 @@ a.button:hover {
   overflow: hidden;
   text-align: center;
   z-index: 1;
-
-
 } */
 @media only screen and (max-width:1210px) and (min-width:1100px) {
   .container-fluid {
@@ -1779,7 +1777,6 @@ i.icon-small {
 .features .heading{
   padding: 70px 25%;
   font-size: 20px;
-
 }
 .features span{
   background-color: #FFD929;
@@ -1792,7 +1789,6 @@ i.icon-small {
   width: 340px;
   margin: 10px 10px;
 }
-
 .images-collection{
   padding: 0 110px;
 }
@@ -1965,6 +1961,10 @@ i.icon-small {
   height: auto;
 }
 
+.pricing .tilted-sm{
+  display: none;
+}
+
 .pricing .right-section .logo{
   width: 210px;
   /* margin-top: 50px; */
@@ -2025,18 +2025,12 @@ i.icon-small {
 }
 
 .pricing .btn {
-  /* background-color: #3C42FB; */
-  /* border-radius: 10px; */
   padding: 5px 26px;
-  /* text-decoration: none; */
-  /* font-size: 26px; */
   letter-spacing: 2;
   margin-top: 10px;
 }
 
 .pricing .paypal-section {
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
   margin-top: 30px;
 }
 
@@ -2055,6 +2049,10 @@ i.icon-small {
 }
 
 .svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps{
+  display: none;
+}
+
+.guaranteed-sm{
   display: none;
 }
 
@@ -2208,8 +2206,8 @@ i.icon-small {
 @media (max-width:510px) {
   .pricing-content{
     display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: repeat(3, 100px) 40px repeat(3, 130px);
+    grid-template-columns: 7% 86% 7%;
+    grid-template-rows: repeat(3, 100px) 40px repeat(3, 200px);
     justify-items:center;
     grid-row-gap:20px;
     justify-content: center;
@@ -2249,9 +2247,12 @@ i.icon-small {
   .pricing-content .right{
     grid-column: 2/3;
     grid-row: 5/8;
-    align-self: center;
-    margin-top: 60px;
+    align-self: start;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
     /* justify-self: center; */
+    align-self: stretch;
   }
 
   .svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps{
@@ -2325,6 +2326,116 @@ i.icon-small {
     font-weight: 100;
   }
 
+  /* .pricing .right .tilted{
+    background-color: #FFDA2A;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+    left: 113px;
+    top: 40px;
+    display: block;
+    /* height: auto;
+    font-size: 10px;
+    opacity: 0.8;
+    font-weight: 600;
+    text-align: center;
+  } */
+
+  .pricing .right .tilted{
+    background-color: #FFDA2A;
+    padding: 2px 50px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+    left: 153px;
+    top: 40px;
+    display: block;
+    height: auto;
+    font-size: 10px;
+  }
+
+  .pricing .paypal-line {
+    display: block;
+    width: 180px;
+    font-size: 12px;
+    /* margin-top: 20px; */
+  }
+
+  .pricing .paypal {
+    display:block;
+    margin: 0 auto;
+  }
+
+  .pricing .btn {
+    padding: 5px 26px;
+    letter-spacing: 2;
+    margin-top: 10px;
+  }
+
+  .pricing .paypal-section {
+    margin-top: 30px;
+  }
+
+  .pricing .guaranteed{
+    position: static;
+    margin-left: 290px;
+    margin-top: 150px;
+    display: none;
+  }
+  .pricing .guaranteed-sm{
+    position: relative;
+
+    display: inline-block;
+  }
+
+}
+
+@media (max-width:457px) {
+  .pricing .right .tilted{
+    background-color: #FFDA2A;
+    padding: 2px 80px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+    left: 130px;
+    top: 40px;
+    display: block;
+    height: auto;
+    font-size: 10px;
+    opacity: 0.8;
+}
+}
+
+@media (max-width:396px) {
+  .pricing .right .tilted{
+    background-color: #FFDA2A;
+    padding: 2px 40px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+    left: 120px;
+    top: 30px;
+    display: block;
+    height: auto;
+    font-size: 10px;
+    opacity: 0.8;
+}
+}
+
+@media (max-width:368px) {
+  .pricing .right .tilted{
+    background-color: #FFDA2A;
+    padding: 2px 40px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    display: block;
+    height: auto;
+    font-size: 10px;
+    opacity: 0.8;
+}
 }
 
 /* Pricing and Final */
@@ -2352,7 +2463,6 @@ i.icon-small {
   background-color: #F9F9F9;
   position: relative;
   bottom:100px;
-
 }
 .final-image{
   display: inline-block;
@@ -2362,7 +2472,6 @@ i.icon-small {
   top: 160px;
   left: 40px;
 }
-
 .final-image img{
   z-index: 2;
 }
@@ -2372,14 +2481,10 @@ i.icon-small {
   width: 490px;
   border: 1px dashed #707070;
   border-radius: 20px;
-
 }
-
 .final-container{
   width: 280px;
-
 }
-
 .final-container p{
   font-size: 26px;
   font-weight: 300;
@@ -2387,7 +2492,6 @@ i.icon-small {
   left: 130px;
   padding-top: 50px;
 }
-
 .final-container a{
   text-decoration: none;
   font-size: 30px;
@@ -2399,11 +2503,7 @@ i.icon-small {
   left: 140px;
   top: 30px;
   z-index: -1;
-
 }
-
-
-
 /* new */
   /* .drag-drop-image{
   height: 120px;
@@ -2415,82 +2515,59 @@ i.icon-small {
   top: 55px;
   left: 80px;
 }
-
 .drag-drop-image img{
   width: 100%;
 }
-
 .drag-drop p{
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 1px;
   padding-bottom: 10px;
-
 }
-
-
-
 .final-drag-drop-section{
   position: relative;
   bottom: 140px;
   right: 65px;
 }
-
 .final-heading{
   padding: 0 340px;
   font-size: 20px;
 }
-
 footer{
   background-color: white;
-
 }
-
  .second, .third, .fourth{
   display: inline-flex;
   text-align: left;
   justify-content: space-around;
-
 }
-
 .first {
   text-align: left;
   display: inline-flex;
   justify-content: space-around;
-
 }
-
 .first li, .second li, .third li, .fourth li{
   list-style: none;
   color: gray;
   padding-top: 10px;
 }
-
 .first li a, .second li a, .third li a, .fourth li a{
   text-decoration: none;
   color: gray;
   font-weight: 200;
 }
-
 .footer-main-section{
   align-items: flex-start;
 }
-
 .first{
   width: 280px;
-
   font-weight: 100;
   color: gray;
-
 }
-
 footer img{
   width: 25%;
   height: 25%;
 }
-
-
-
 .copyright{
   text-align: center;
   font-size: 12px;
@@ -2499,7 +2576,6 @@ footer img{
   color: white;
   padding: 20px 0;
 }
-
 #footer-flex{
   align-items: flex-start;
 } */
