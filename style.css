@@ -2,9 +2,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body{
-
-}
+body {}
 
 /* header */
 .header {
@@ -1491,7 +1489,6 @@ span.carousel-control-next-icon {
 .Photographers:hover, .Designers:hover, .Ecommerce:hover, .Car-Dealers:hover, .Individuals:hover, .Coders:hover {
   background-color: #3C42FB;
   color: #fff;
-
 }
 
 .Photographers {
@@ -1795,12 +1792,7 @@ i.icon-small {
 .features-image img{
   width: 100%;
 } */
-
-
-
 /* Pricing */
-
-
 .pricing {
   background-color: #F9F9F9;
   padding-bottom: 100px;
@@ -1867,7 +1859,7 @@ i.icon-small {
   z-index: 1;
 }
 
-.vl span{
+.vl span {
   background-color: #FFDA2A;
   color: white;
   /* position: relative;
@@ -1884,13 +1876,11 @@ i.icon-small {
   position: relative;
   z-index: 1;
   /* justify-self: stretch; */
-
   background-color: white;
   border-radius: 20px;
   text-align: center;
   display: flex;
   /* flex-direction: column; */
-
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 11px 0px rgba(123, 119, 119, 0.38);
@@ -1898,23 +1888,20 @@ i.icon-small {
   -moz-box-shadow: 0px 0px 11px 0px rgba(123, 119, 119, 0.38);
 }
 
-.pricing .right .right-section{
+.pricing .right .right-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-
-
-.pricing  .pricing-content .box {
+.pricing .pricing-content .box {
   background-color: white;
   border-radius: 20px;
   height: 130px;
   width: 450px;
   /* margin-top: 30px; */
 }
-
 
 .pricing .box-right, .pricing .box-left {
   display: inline-block;
@@ -1946,10 +1933,8 @@ i.icon-small {
   font-weight: 100;
 }
 
-
 /* right */
-
-.pricing .right .tilted{
+.pricing .right .tilted {
   background-color: #FFDA2A;
   padding: 2px 50px;
   transform: rotate(45deg);
@@ -1961,11 +1946,11 @@ i.icon-small {
   height: auto;
 }
 
-.pricing .tilted-sm{
+.pricing .tilted-sm {
   display: none;
 }
 
-.pricing .right-section .logo{
+.pricing .right-section .logo {
   width: 210px;
   /* margin-top: 50px; */
 }
@@ -2010,6 +1995,7 @@ i.icon-small {
   font-weight: 300;
   letter-spacing: 1.4;
   margin-left: 5px;
+  text-decoration: line-through;
 }
 
 .pricing .paypal-line {
@@ -2034,120 +2020,112 @@ i.icon-small {
   margin-top: 30px;
 }
 
-.pricing .guaranteed{
+.pricing .guaranteed {
   position: absolute;
   margin-left: 290px;
   margin-top: 150px;
 }
 
-.svg1-ps{
+.svg1-ps {
   position: absolute;
   right: -490px;
   z-index: 0;
   margin-top: 150px;
-
 }
 
-.svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps{
+.svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps {
   display: none;
 }
 
-.guaranteed-sm{
+.guaranteed-sm {
   display: none;
 }
 
+@media (max-width:1100px) {
+  .pricing {}
 
-
-@media (max-width:1100px){
-
-  .pricing{
-
-  }
-
-  .pricing .heading{
+  .pricing .heading {
     padding: 70px 10%;
   }
-  .pricing-content{
+
+  .pricing-content {
     display: grid;
     grid-template-columns: 1fr 450px 1fr;
     grid-template-rows: repeat(3, 130px) 40px repeat(3, 130px);
-    justify-items:center;
-    grid-row-gap:20px;
-
-
+    justify-items: center;
+    grid-row-gap: 20px;
   }
-  .pricing-content .up{
+
+  .pricing-content .up {
     grid-column: 2/3;
     grid-row: 1/2;
   }
 
-  .pricing-content .mid{
+  .pricing-content .mid {
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
-  .pricing-content .down{
+  .pricing-content .down {
     grid-column: 2/3;
     grid-row: 3/4;
   }
 
-  .pricing-content .vl{
+  .pricing-content .vl {
     grid-column: 2/3;
     grid-row: 4/5;
     border-top: 1px solid #D9D9D9;
     width: 300px;
     height: 0;
-
   }
 
-  .pricing-content .right{
+  .pricing-content .right {
     grid-column: 2/3;
     grid-row: 5/8;
     width: 450px;
     align-self: center;
     margin-top: 60px;
-    /* justify-self: center; */
   }
 
-  .svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps{
+  .svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps {
     display: inline-block;
   }
 
-  .svg2-ps{
+  .svg2-ps {
     grid-column: 2/3;
     grid-row: 1/2;
-    justify-self:start;
+    justify-self: start;
     align-self: start;
     position: relative;
     right: 50px;
     bottom: 50px;
   }
 
-  .svg3-ps{
+  .svg3-ps {
     grid-column: 1/2;
     grid-row: 1/3;
-    justify-self:end;
+    justify-self: end;
     align-self: end;
   }
 
-  .svg4-ps{
+  .svg4-ps {
     grid-column: 1/2;
     grid-row: 6/7;
-    justify-self:end;
+    justify-self: end;
     align-self: end;
   }
 
-  .svg5-ps{
+  .svg5-ps {
     grid-column: 1/2;
     grid-row: 3/4;
-    justify-self:center;
+    justify-self: center;
     align-self: end;
   }
 
-  .svg6-ps{
+  .svg6-ps {
     grid-column: 2/3;
     grid-row: 7/8;
-    justify-self:end;
+    justify-self: end;
     align-self: end;
     position: relative;
     left: 90px;
@@ -2155,41 +2133,39 @@ i.icon-small {
   }
 }
 
-@media (max-width:690px){
-  .pricing-content{
+@media (max-width:690px) {
+  .pricing-content {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 130px) 40px repeat(3, 130px);
-    justify-items:center;
-    grid-row-gap:20px;
-
-
+    justify-items: center;
+    grid-row-gap: 20px;
   }
-  .pricing-content .up{
+
+  .pricing-content .up {
     grid-column: 1/2;
     grid-row: 1/2;
   }
 
-  .pricing-content .mid{
+  .pricing-content .mid {
     grid-column: 1/2;
     grid-row: 2/3;
   }
 
-  .pricing-content .down{
+  .pricing-content .down {
     grid-column: 1/2;
     grid-row: 3/4;
   }
 
-  .pricing-content .vl{
+  .pricing-content .vl {
     grid-column: 1/2;
     grid-row: 4/5;
     border-top: 1px solid #D9D9D9;
     width: 300px;
     height: 0;
-
   }
 
-  .pricing-content .right{
+  .pricing-content .right {
     grid-column: 1/2;
     grid-row: 5/8;
     width: 450px;
@@ -2198,78 +2174,72 @@ i.icon-small {
     /* justify-self: center; */
   }
 
-  .svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps{
+  .svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps {
     display: none;
   }
 }
 
 @media (max-width:510px) {
-  .pricing-content{
+  .pricing-content {
     display: grid;
     grid-template-columns: 7% 86% 7%;
     grid-template-rows: repeat(3, 100px) 40px repeat(3, 200px);
-    justify-items:center;
-    grid-row-gap:20px;
+    justify-items: center;
+    grid-row-gap: 20px;
     justify-content: center;
-    justify-items:center;
-
-
+    justify-items: center;
   }
 
-  .pricing .pricing-section .pricing-content .box{
+  .pricing .pricing-section .pricing-content .box {
     width: 100%;
     height: 100px;
   }
-  .pricing-content .up{
+
+  .pricing-content .up {
     grid-column: 2/3;
     grid-row: 1/2;
   }
 
-  .pricing-content .mid{
+  .pricing-content .mid {
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
-  .pricing-content .down{
+  .pricing-content .down {
     grid-column: 2/3;
     grid-row: 3/4;
   }
 
-  .pricing-content .vl{
+  .pricing-content .vl {
     grid-column: 2/3;
     grid-row: 4/5;
     border-top: 1px solid #D9D9D9;
     width: 300px;
     height: 0;
-
   }
 
-  .pricing-content .right{
+  .pricing-content .right {
     grid-column: 2/3;
     grid-row: 5/8;
     align-self: start;
     margin-top: 0;
     width: 100%;
     height: auto;
-    /* justify-self: center; */
     align-self: stretch;
   }
 
-  .svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps{
+  .svg2-ps, .svg3-ps, .svg4-ps, .svg5-ps, .svg6-ps {
     display: none;
   }
 
-
-
-
-  .pricing .right .right-section{
+  .pricing .right .right-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
 
-  .pricing  .pricing-content .box {
+  .pricing .pricing-content .box {
     background-color: white;
     border-radius: 20px;
     height: 130px;
@@ -2295,7 +2265,7 @@ i.icon-small {
     text-align: left;
   }
 
-  .pricing .box-right{
+  .pricing .box-right {
     flex-direction: column;
     justify-content: center;
     align-items: start;
@@ -2310,7 +2280,7 @@ i.icon-small {
     align-items: center;
   }
 
-  .pricing .box .box-content .box-right .right-up, .pricing .box .box-content .box-right .right-down{
+  .pricing .box .box-content .box-right .right-up, .pricing .box .box-content .box-right .right-down {
     text-align: left;
     display: block;
   }
@@ -2326,22 +2296,7 @@ i.icon-small {
     font-weight: 100;
   }
 
-  /* .pricing .right .tilted{
-    background-color: #FFDA2A;
-    transform: rotate(45deg);
-    overflow: hidden;
-    position: relative;
-    left: 113px;
-    top: 40px;
-    display: block;
-    /* height: auto;
-    font-size: 10px;
-    opacity: 0.8;
-    font-weight: 600;
-    text-align: center;
-  } */
-
-  .pricing .right .tilted{
+  .pricing .right .tilted {
     background-color: #FFDA2A;
     padding: 2px 50px;
     transform: rotate(45deg);
@@ -2362,7 +2317,7 @@ i.icon-small {
   }
 
   .pricing .paypal {
-    display:block;
+    display: block;
     margin: 0 auto;
   }
 
@@ -2376,22 +2331,21 @@ i.icon-small {
     margin-top: 30px;
   }
 
-  .pricing .guaranteed{
+  .pricing .guaranteed {
     position: static;
     margin-left: 290px;
     margin-top: 150px;
     display: none;
   }
-  .pricing .guaranteed-sm{
-    position: relative;
 
+  .pricing .guaranteed-sm {
+    position: relative;
     display: inline-block;
   }
-
 }
 
 @media (max-width:457px) {
-  .pricing .right .tilted{
+  .pricing .right .tilted {
     background-color: #FFDA2A;
     padding: 2px 80px;
     transform: rotate(45deg);
@@ -2403,11 +2357,11 @@ i.icon-small {
     height: auto;
     font-size: 10px;
     opacity: 0.8;
-}
+  }
 }
 
 @media (max-width:396px) {
-  .pricing .right .tilted{
+  .pricing .right .tilted {
     background-color: #FFDA2A;
     padding: 2px 40px;
     transform: rotate(45deg);
@@ -2419,11 +2373,11 @@ i.icon-small {
     height: auto;
     font-size: 10px;
     opacity: 0.8;
-}
+  }
 }
 
 @media (max-width:368px) {
-  .pricing .right .tilted{
+  .pricing .right .tilted {
     background-color: #FFDA2A;
     padding: 2px 40px;
     transform: rotate(45deg);
@@ -2435,30 +2389,127 @@ i.icon-small {
     height: auto;
     font-size: 10px;
     opacity: 0.8;
-}
+  }
 }
 
 /* Pricing and Final */
-
-
-.pricing-and-final{
+.pricing-and-final {
   overflow: hidden;
+  background-color: #F9F9F9;
+}
+
+.final {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 10% 10% 1fr 10% 10%;
+  grid-template-rows: 1fr 2fr;
+  grid-row-gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  padding-bottom: 100px;
+  z-index: 2;
+}
+
+.final-h {
+  grid-row: 1/2;
+  grid-column: 3 / 4;
+  text-align: center;
+
+}
+
+.final-h h2 {
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.final .final-drag-drop {
+  grid-row: 2/3;
+  grid-column: 3 / 4;
+
+  display: grid;
+  grid-template-columns: 486.5px;
+  grid-template-rows: 220px auto;
+  /* grid-row-gap: 30px; */
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.drag-drop-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: start;
+  align-self: center;
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.drag-drop-box-f {
+  height: 220px;
+  width: 400px;
+  border-radius: 15px;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #D9D9D9;
+  justify-self: end;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  position: relative;
+}
+
+.drag-drop-box-f p {
+  font-size: 22px;
+  margin-left: 70px;
+  font-weight: 300;
+}
+
+.drag-drop-box-f button{
+  font-size: 24px;
+  margin-left: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.final .try{
+  display: flex;
+  align-items: center;
+}
+
+.final .try p{
+  font-size: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.svg1-f{
+  position: absolute;
+  left: -400px;
+  z-index: -1;
+  margin-top: 350px;
+
+}
+
+@media (max-width:1190px) {
+  .svg1-f{
+    display: none;
+  }
 }
 
 
-  /* position: relative;
-  bottom:310px;
-  right: 25px;
-} */
-  /* .vl span{
-  position: relative;
-  right: 10px;
-  top: 140px;
-  background-color: #FFDA2A;
-  color: white;
-} */
-  /* final */
-  /* .final{
+
+/* final */
+/* .final{
   text-align: center;
   background-color: #F9F9F9;
   position: relative;
@@ -2505,7 +2556,7 @@ i.icon-small {
   z-index: -1;
 }
 /* new */
-  /* .drag-drop-image{
+/* .drag-drop-image{
   height: 120px;
   width: 140px;
   border-radius: 15px;
