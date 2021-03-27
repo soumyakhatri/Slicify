@@ -9,26 +9,29 @@ body {}
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 5;
+  z-index: 10;
 }
 
 .header-top {
   text-align: center;
   background-color: #FFD929;
-  padding: 12px 0;
-  position: fixed;
+  padding: 20px 0;
+  /* position: fixed; */
   width: 100%;
-  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 140px; */
 }
 
 .header-second {
   text-decoration: none;
   background-color: white;
-  height: 88px;
+  height: 50px;
   font-weight: 400;
   font-size: 14px;
   position: relative;
-  top: 48px;
+  /* top: 48px; */
 }
 
 .header-second .row {
@@ -238,7 +241,7 @@ main {
     padding: 12px 0;
     position: fixed;
     width: 100%;
-    min-height: 100px;
+    /* min-height: 100px; */
     font-size: 13px;
   }
 }
