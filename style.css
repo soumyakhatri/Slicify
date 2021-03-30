@@ -1465,6 +1465,8 @@ a.button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  justify-self:end;
+  height: 380px;
   border-radius: 35px;
   padding: 0px 40px 0 40px;
   /* margin-top: 80px; */
