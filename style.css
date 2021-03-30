@@ -21,6 +21,7 @@ body {}
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 16px;
   /* min-height: 140px; */
 }
 
@@ -298,6 +299,7 @@ img.front-img {
 .drag-drop-img-i {
   grid-column: 1/2;
   grid-row: 1/2;
+  width: 150px;
   justify-self: start;
   align-self: center;
   background-color: white;
