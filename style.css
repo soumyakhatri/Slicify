@@ -531,7 +531,7 @@ img.front-img {
   }
 
   .drag-drop-box-i{
-    width: 230px;
+    width: 250px;
     height: 150px;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -810,17 +810,6 @@ a.button:hover {
   transition-timing-function: ease-out;
 }
 
-/* .tilted{
-  font-weight: bold;
-  transform: rotate(45deg);
-  position: relative;
-  left: 120px;
-  top: 15px;
-  background-color: #FFD929;
-  overflow: hidden;
-  text-align: center;
-  z-index: 1;
-} */
 @media only screen and (max-width:1210px) and (min-width:1100px) {
   .container-fluid {
     padding: 0;
