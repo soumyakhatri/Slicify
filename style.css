@@ -526,6 +526,7 @@ img.front-img {
     grid-row: 1/2;
     padding: 4px 12px 2px 12px;
     border-radius: 10px;
+    width: 100px;
 
   }
 
