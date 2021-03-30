@@ -1372,8 +1372,8 @@ a.button:hover {
 
   .svg2-main {
     position: relative;
-    top: 20px;
-    right: 80px;
+    top: 40px;
+    right: 90px;
     z-index: 3;
     grid-row: 3/ 5;
     grid-column: 1/2;
