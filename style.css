@@ -481,7 +481,7 @@ img.front-img {
 
   .intro .left{
     grid-template-columns: 312px;
-    grid-template-rows: 300px;
+    grid-template-rows: 312px;
 
   }
 
@@ -507,7 +507,7 @@ img.front-img {
     }
 
     100% {
-      transform: translate(-7px, -9px);
+      transform: translate(-7px, -21px);
     }
   }
   .background{
