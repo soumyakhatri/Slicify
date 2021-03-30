@@ -912,12 +912,17 @@ a.button:hover {
 }
 
 @media only screen and (max-width:566px) {
+
+  .license {
+    margin-bottom: -150px;
+  }
   .license .container-fluid {
     padding: 0;
   }
 
   .license .container-fluid .grid {
-    grid-template-rows: repeat(15, 1fr);
+    grid-template-rows: 3fr 2fr;
+    grid-template-columns: 1fr;
   }
 
   .license .container-fluid .grid .big .big-content {
@@ -925,14 +930,17 @@ a.button:hover {
   }
 
   .license .container-fluid .grid .big {
-    grid-row: 1 / 11;
+    grid-row: 1 /2;
+    grid-column: 1/2;
     padding-bottom: 100px;
   }
 
   .license .container-fluid .grid .xyz {
-    grid-column: 2 /5;
-    grid-row: 10/ 16;
-    margin-top: 20px;
+    grid-column: 1/2;
+    grid-row: 2/ 3;
+    position: relative;
+    bottom: 150px;
+
   }
 
   p.license-p1 {
@@ -956,14 +964,27 @@ a.button:hover {
 }
 
 @media only screen and (max-width:471px) {
-  .license .container-fluid .grid .xyz {
-    grid-column: 1 /7;
-    grid-row: 10/ 17;
+
+  .license{
+    margin-bottom: -150px;
   }
 
   .license .container-fluid .grid {
-    grid-template-rows: repeat(14, 1fr);
+    grid-template-rows: 3fr 2fr;
+    grid-template-columns: 1fr;
   }
+
+  .license .container-fluid .grid .xyz {
+    grid-column: 1 /2;
+    grid-row: 2/3 ;
+    position: relative;
+    bottom: 150px;
+  }
+  .license .container-fluid .grid .big{
+    grid-column: 1 /2;
+    grid-row: 1/2 ;
+  }
+
 
   .license .container-fluid .grid .big .big-content {
     padding-top: 30px;
