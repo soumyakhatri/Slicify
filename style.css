@@ -621,14 +621,14 @@ img.front-img {
   grid-row: 1 / 13;
 }
 
-@keyframes slideInFromLeft {
+/* @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
   }
   100% {
     transform: translateX(0);
   }
-}
+} */
 
 /*.license .container-fluid .big {
   /* This section calls the slideInFromLeft animation we defined above */
@@ -648,10 +648,10 @@ img.front-img {
 
 .license .container-fluid .small {
   /* This section calls the slideInFromLeft animation we defined above */
-/*  animation: 1s ease-out 2s 1 slideInFromRight;
+ /* animation: 1s ease-out 2s 1 slideInFromRight;
 
   padding: 30px;
-} /*
+} */
 
 .big-content {
   display: flex;
