@@ -218,11 +218,11 @@ body {}
 
 
 .main .right ul{
-  padding-left: 16px;
+  margin-left: -40px;
 }
 
 .main li{
-  list-style: circle;
+  list-style: none;
   font-size: 12px;
   font-weight: 200;
   margin-bottom: 5px;
@@ -267,6 +267,7 @@ body {}
   font-size: 24px;
   padding: 5px 10px;
   width: 230px;
+  color: white!important;
 }
 
 @media (max-width:1135px) {
@@ -417,6 +418,7 @@ body {}
     font-size: 19px;
     /* padding-bottom: 4px; */
     padding-top: 10px;
+    color: white!important;
   }
   .main .right-mob ul{
    padding-left: 0;
@@ -431,6 +433,94 @@ body {}
     text-align: center;
     font-size: 18px;
   }
+}
+
+.faq{
+  position: relative;
+  top: 114px;
+  padding: 5% 16%;
+  padding-bottom: 200px;
+  background: #F9F9F9;
+
+}
+
+.faq-h h3{
+  font-size: 30px;
+}
 
 
+
+/* Test */
+
+.faq-q{
+  margin-top: 50px;
+}
+
+a{
+color: #282425!important;
+}
+
+.card-header {
+  background: #F9F9F9;
+  border: none;
+}
+.card{
+border: none;
+background: #F9F9F9;
+
+
+}
+
+.card > .card-header a::before {
+    font-family: fontawesome;
+    content: "\f063 ";
+    color: #282425;
+    float: right;
+    margin-right: 15px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+}
+
+.card > .card-header a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+.card > .card-header a p:hover{
+  color:grey;
+}
+
+.faq .card-header{
+  font-weight: 500;
+  padding-left:0;
+  padding-right: 0;
+  font-size: 18px;
+}
+
+.faq .card-body{
+  font-weight: 300;
+  font-size: 14px;
+}
+
+
+
+.faq hr{
+  padding: 0 10%;
+  margin: 8px 0;
+}
+
+@media (max-width:500px) {
+  .faq {
+    padding: 0 8%;
+  }
+
+  .faq-h h3{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card > .card-header a::before{
+    display: none;
+  }
 }
