@@ -64,7 +64,7 @@ body {}
   padding-right: 12%;
 }
 
-.btn-primary {
+.header .btn-primary {
   border-radius: 20px;
 }
 
@@ -114,7 +114,7 @@ body {}
   padding: 10px 20px;
 }
 
-.btn {
+.header-second .btn {
   background-color: #3C42FB;
   color: white;
   border-radius: 10px;
@@ -1207,5 +1207,26 @@ footer h5 {
 
   footer h5 {
     margin-top: 20px;
+  }
+
+}
+
+/* fixed buy now button */
+
+@media (max-width:500px) {
+  .fixed-buy-btn{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 0;
+    padding: 0 5px;
+}
+
+  .fixed-buy-btn .btn{
+    color: #fff!important;
+    width: 100%;
+    border-radius: 0
   }
 }
