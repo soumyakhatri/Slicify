@@ -676,11 +676,56 @@ img.front-img {
   margin-left: 20px;
 }
 
-#demo {
-  font-size: 30px;
-  letter-spacing: 1;
-  word-spacing: 6px;
+
+
+/* Timer */
+
+
+
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display:flex;
+  font-weight: 100;
+  font-size: 18px;
+  font-weight: 600;
+
 }
+
+#clockdiv > div{
+  padding: 0px;
+  border-radius: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+#clockdiv div > span{
+  padding: 0;
+  border-radius: 12px;
+  background-color: black;
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0
+}
+
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+/* Timer Ends */
 
 .big-content li {
   list-style: circle;
@@ -1446,7 +1491,6 @@ a.button:hover {
 }
 
 /* Review*/
-.review {}
 
 .review-heading {
   padding: 55px 19%;
