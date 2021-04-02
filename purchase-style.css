@@ -472,7 +472,6 @@ a {
 }
 
 .card>.card-header a p:hover {
-  color: grey;
 }
 
 .faq .card-header {
@@ -798,7 +797,7 @@ span.carousel-control-next-icon {
   }
 
   .review-heading {
-    padding: 55px 10px 55px 10px;
+    padding: 55px 8% 55px 8%;
     font-size: 22px;
   }
 
@@ -876,7 +875,7 @@ span.carousel-control-next-icon {
   }
 
   .review-heading {
-    padding: 55px 10px 55px 10px;
+    padding: 55px 8% 55px 8%;
   }
 
   .review-grid {
@@ -1213,15 +1212,18 @@ footer h5 {
 
 /* fixed buy now button */
 
+.fixed-buy-btn{
+  display: none;
+}
+
 @media (max-width:500px) {
   .fixed-buy-btn{
     position: fixed;
     bottom: 0;
     width:100%;
-    margin-bottom: 5px;
     display: block;
     border-radius: 0;
-    padding: 0 5px;
+    padding: 0;
 }
 
   .fixed-buy-btn .btn{
