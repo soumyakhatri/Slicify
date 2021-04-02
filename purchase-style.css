@@ -1210,6 +1210,22 @@ footer h5 {
 
 }
 
+/* footer bottom */
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 73px;
+  background-color: #F9F9F9;
+}
+
+@media (max-width:500px) {
+  .footer-bottom {
+    margin-bottom: 34px;
+    height: 73px;
+  }
+}
 /* fixed buy now button */
 
 .fixed-buy-btn{
