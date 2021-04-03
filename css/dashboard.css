@@ -695,17 +695,19 @@ hr {
 
   .credit-plan {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 60% 40%;
     grid-template-rows: repeat(2, 1fr) 3fr 1fr 5px 40%;
     grid-row-gap: 20px;
     align-items: center;
     padding-bottom: 0;
+    justify-content: space-around;
+    padding: 2% 20px!important;
   }
 
   .g1 {
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 16px;
+    font-size: 19px;
   }
 
   .g2 {
@@ -725,7 +727,7 @@ hr {
   .g4 {
     grid-column: 2/3;
     grid-row: 2/3;
-    font-size: 16px;
+    font-size: 19px;
     justify-self: end;
     align-self: start;
   }
@@ -739,7 +741,7 @@ hr {
   .g6 {
     grid-column: 2/3;
     grid-row: 3/4;
-    font-size: 16px;
+    font-size: 19px;
     justify-self: end;
     align-self: start;
   }
@@ -752,7 +754,7 @@ hr {
   .g8 {
     grid-column: 2/3;
     grid-row: 4/5;
-    font-size: 16px;
+    font-size: 19px;
     justify-self: end;
     align-self: start;
   }
@@ -768,7 +770,7 @@ hr {
     padding: 10px 14px;
     border-radius: 5px;
     margin-top: -7px;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .g9:hover {
@@ -780,11 +782,11 @@ hr {
   }
 
   .info1 .p1 {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .info1 .p2 {
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 300;
   }
 
@@ -801,24 +803,24 @@ hr {
   }
 
   .info1 .p3 {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .info1 .s1 {
     color: #3C42FB;
     font-weight: 300;
     position: relative;
-    top: 10px;
-    font-size: 10px;
+    top: 14px;
+    font-size: 13px;
   }
 
   .info1 .p4 {
-    font-size: 8px;
+    font-size: 11px;
     margin-top: 10px;
   }
 
   .info1 .g10 .btn {
-    font-size: 9px;
+    font-size: 14px;
     color: white;
     background-color: #3C42FB;
     margin-top: 20px;
@@ -830,6 +832,7 @@ hr {
   }
 
   .info1 .g11 {
+    display: none;
     grid-column: 2/3;
     grid-row: 6/7;
     align-self: start;
@@ -844,7 +847,7 @@ hr {
     border-radius: 5px;
     background-color: #fff;
     font-weight: 300;
-    font-size: 8px;
+    font-size: 14px;
   }
 
   .info1 .btn-white:hover, .info3 .btn-white:hover {
