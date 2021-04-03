@@ -858,7 +858,7 @@ hr {
   /* payment method */
 
   .info2{
-    padding: 2% 20px!important;
+    padding: 2% 20px 4% 20px!important;
   }
 
 
@@ -906,13 +906,13 @@ hr {
   /* Refer */
 
   .info4{
-    padding: 2% 20px!important;
+    padding: 2% 20px 4% 20px!important;
   }
 
   /* account */
 
   .account{
-    padding: 2% 20px!important;
+    padding: 3% 20px 4% 20px!important;
   }
 
   .account .input-width{
