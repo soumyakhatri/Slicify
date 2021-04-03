@@ -858,7 +858,7 @@ hr {
   /* payment method */
 
   .info2{
-    padding: 2% 20px;
+    padding: 2% 20px!important;
   }
 
 
@@ -903,22 +903,28 @@ hr {
     font-size: 16px;
   }
 
+  /* Refer */
+
+  .info4{
+    padding: 2% 20px!important;
+  }
+
   /* account */
 
   .account{
-    padding: 2% 20px;
+    padding: 2% 20px!important;
   }
 
   .account .input-width{
     display:block;
     width: 60%;
-    height: 30px;
+    height: 50px;
     margin-bottom: 0!important;
   }
 
   .account .btn-blue {
     color:#3C42FB;
-    font-size: 10px;
+    font-size: 16px;
     float: right;
   }
 
@@ -927,11 +933,11 @@ hr {
   }
 
   .account label{
-    font-size: 15px;
+    font-size: 19px;
   }
 
   .account .p1{
-    font-size: 16px;
+    font-size: 19px;
   }
 
   .account .p2{
@@ -940,7 +946,7 @@ hr {
   }
 
   .account .red-btn{
-    font-size: 11px;
+    font-size: 16px;
   }
 
 }
