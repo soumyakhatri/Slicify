@@ -529,54 +529,83 @@ hr {
   .dashboard-content {
     margin-top: -120px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 70px auto 80px auto 80px auto 80px auto 70px auto;
-    grid-row-gap: 0;
+    grid-template-columns: 330px;
+    grid-template-rows: 65px auto 65px auto 65px auto 65px auto 65px auto;
+    grid-row-gap: 0px;
     position: relative;
     z-index: 1;
     bottom: 0;
+    top:0;
     background-color: #fff;
-    width:
+    align-content: space-between;
+  }
 
+  .opt{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .opt:hover{
+    background-color: #3C42FB;
+  }
+
+  .opt:focus{
+    background-color: #3C42FB;
+
+  }
+
+  .opt a{
+    /* height: 65px; */
+
+    width: 330px;
+    padding: 0!important;
   }
 
   /* options */
   .opt1 {
     grid-column: 1/2;
     grid-row: 1/2;
-    align-self: start;
-    text-align: center;
+    /* align-self: start; */
     top:0;
+    padding: 0!important;
+    height: 66px;
   }
 
   .opt2 {
     grid-column: 1/2;
     grid-row: 3/4;
     top:0;
-
+    padding: 0!important;
+    height: 66px;
   }
 
   .opt3 {
     grid-column: 1/2;
     grid-row: 5/6;
     top:0;
-
-
+    padding: 0!important;
+    height: 66px;
   }
 
   .opt4 {
     grid-column: 1/2;
     grid-row: 7/8;
     top:0;
-
+    padding: 0!important;
+    height: 66px;
 
   }
 
   .opt5 {
     grid-column: 1/2;
     grid-row: 9/10;
-    align-self: end;
+    /* align-self: end; */
     top:0;
+    padding: 0!important;
+    height: 66px;
 
 
   }
@@ -590,31 +619,41 @@ hr {
   .opt1 a:hover, .opt2 a:hover, .opt3 a:hover, .opt4 a:hover, .opt5 a:hover {
     color: white;
     background-color: #3C42FB;
+    border-radius: 0;
   }
 
   .opt1 a:focus {
     background-color: #3c42fb;
     color: white;
+    border-radius: 0;
   }
 
   .opt2 a:focus {
     background-color: #3c42fb;
     color: white;
+    border-radius: 0;
+
   }
 
   .opt3 a:focus {
     background-color: #3c42fb;
     color: white;
+    border-radius: 0;
+
   }
 
   .opt4 a:focus {
     background-color: #3c42fb;
     color: white;
+    border-radius: 0;
+
   }
 
   .opt5 a:focus {
     background-color: #3c42fb;
     color: white;
+    border-radius: 0;
+
   }
 
   .info2 {
