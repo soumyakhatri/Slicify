@@ -696,7 +696,7 @@ hr {
   .credit-plan {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: repeat(2, 1fr) 3fr 1fr 5px 40%;
+    grid-template-rows: repeat(2, 1fr) 3fr 1fr 5px 30%;
     grid-row-gap: 20px;
     align-items: center;
     padding-bottom: 0;
@@ -820,7 +820,7 @@ hr {
   }
 
   .info1 .g10 .btn {
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     background-color: #3C42FB;
     margin-top: 20px;
@@ -847,7 +847,7 @@ hr {
     border-radius: 5px;
     background-color: #fff;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .info1 .btn-white:hover, .info3 .btn-white:hover {
@@ -856,6 +856,10 @@ hr {
   }
 
   /* payment method */
+
+  .info2{
+    padding: 2% 20px;
+  }
 
 
   .info2 h4 {
@@ -868,11 +872,15 @@ hr {
   }
 
   /* API */
+  .api{
+    padding: 2% 20px;
+  }
+
   .api .p1 {
     color: #3C42FB;
     text-align: left;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .api .p2 {
@@ -896,6 +904,10 @@ hr {
   }
 
   /* account */
+
+  .account{
+    padding: 2% 20px;
+  }
 
   .account .input-width{
     display:block;
