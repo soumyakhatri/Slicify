@@ -214,6 +214,9 @@
   bottom: 100px;
   background-color: #F2F2F2;
   min-height: 370px;
+  box-shadow: 0px 0px 5px 0px rgba(169, 166, 166, 0.34);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(169, 166, 166, 0.34);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(169, 166, 166, 0.34);
 
 }
 
@@ -527,7 +530,7 @@ hr {
   }
 
   .dashboard-content {
-    margin-top: -120px;
+    margin-top: -150px;
     display: grid;
     grid-template-columns: 330px;
     grid-template-rows: 65px auto 65px auto 65px auto 65px auto 65px auto;
@@ -538,6 +541,9 @@ hr {
     top:0;
     background-color: #fff;
     align-content: space-between;
+    box-shadow: 0px 0px 5px 0px rgba(169, 166, 166, 0.34);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(169, 166, 166, 0.34);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(169, 166, 166, 0.34);
   }
 
   .opt{
@@ -942,6 +948,10 @@ hr {
   align-items: start;
   justify-content: space-around;
   justify-items: flex-start;
+}
+
+footer .slicify-logo-dark{
+  width:210px;
 }
 
 footer .f1 p {
