@@ -873,20 +873,20 @@ hr {
 
   /* API */
   .api{
-    padding: 2% 20px;
+    padding: 2% 20px!important;
   }
 
   .api .p1 {
     color: #3C42FB;
     text-align: left;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .api .p2 {
     font-size: 24px;
     font-weight: 500;
-    margin-top: 50px !important;
+    margin-top: 40px !important;
   }
 
   .api-key {
@@ -900,7 +900,7 @@ hr {
   }
 
   .api .btn-white{
-    font-size: 16px;
+    font-size: 17px;
   }
 
   /* Refer */
@@ -917,14 +917,14 @@ hr {
 
   .account .input-width{
     display:block;
-    width: 60%;
-    height: 50px;
+    width: 55%;
+    height: 39px;
     margin-bottom: 0!important;
   }
 
   .account .btn-blue {
     color:#3C42FB;
-    font-size: 16px;
+    font-size: 17px;
     float: right;
   }
 
@@ -941,12 +941,12 @@ hr {
   }
 
   .account .p2{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 300;
   }
 
   .account .red-btn{
-    font-size: 16px;
+    font-size: 17px;
   }
 
 }
