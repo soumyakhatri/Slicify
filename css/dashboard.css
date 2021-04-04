@@ -552,10 +552,12 @@ hr {
     align-content: center;
     justify-content: center;
     padding-top: 10px;
+    border: none;
   }
 
   .opt:hover{
     background-color: #3C42FB;
+    color: #fff;
   }
 
   .opt:focus{
@@ -568,6 +570,8 @@ hr {
 
     width: 330px;
     padding: 0!important;
+    padding-top: 17px!important;
+    padding-bottom: 17px!important;
   }
 
   /* options */
@@ -622,12 +626,12 @@ hr {
     padding: 2%!important;
   }
 
-  .opt1 a:hover, .opt2 a:hover, .opt3 a:hover, .opt4 a:hover, .opt5 a:hover {
+   .opt1 a:hover, .opt2 a:hover, .opt3 a:hover, .opt4 a:hover, .opt5 a:hover {
     color: white;
     background-color: #3C42FB;
     border-radius: 0;
   }
-
+/*
   .opt1 a:focus {
     background-color: #3c42fb;
     color: white;
@@ -660,7 +664,7 @@ hr {
     color: white;
     border-radius: 0;
 
-  }
+  } */
 
   .info2 {
     grid-column: 1/-1;
@@ -918,13 +922,13 @@ hr {
   .account .input-width{
     display:block;
     width: 55%;
-    height: 39px;
+    height: 38px;
     margin-bottom: 0!important;
   }
 
   .account .btn-blue {
     color:#3C42FB;
-    font-size: 17px;
+    font-size: 16px;
     float: right;
   }
 
@@ -934,6 +938,7 @@ hr {
 
   .account label{
     font-size: 19px;
+    margin-top: 1.5rem;
   }
 
   .account .p1{
