@@ -290,10 +290,6 @@
   background-color: #DFDFDF;
 }
 
-.opt a:active {
-  background-color: red;
-}
-
 .opt a:focus {
   background-color: #DFDFDF;
   border-style: none;
@@ -524,7 +520,7 @@ hr {
   font-weight: 300;
 }
 
-@media (max-width:500px) {
+@media (max-width:768px) {
   .dashboard {
     padding: 5%;
   }
@@ -532,7 +528,7 @@ hr {
   .dashboard-content {
     margin-top: -150px;
     display: grid;
-    grid-template-columns: 330px;
+    grid-template-columns: 460px;
     grid-template-rows: 65px auto 65px auto 65px auto 65px auto 65px auto;
     grid-row-gap: 0px;
     position: relative;
@@ -566,10 +562,10 @@ hr {
   }
 
   .opt a{
-    /* height: 65px; */
+    width: 460px;
+    padding-right: 0!important;
+    padding-left: 0!important;
 
-    width: 330px;
-    padding: 0!important;
     padding-top: 17px!important;
     padding-bottom: 17px!important;
   }
@@ -631,17 +627,23 @@ hr {
     background-color: #3C42FB;
     border-radius: 0;
   }
-/*
+
   .opt1 a:focus {
     background-color: #3c42fb;
     color: white;
     border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c42fb;
   }
 
   .opt2 a:focus {
     background-color: #3c42fb;
     color: white;
     border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c42fb;
 
   }
 
@@ -649,6 +651,9 @@ hr {
     background-color: #3c42fb;
     color: white;
     border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c42fb;
 
   }
 
@@ -656,6 +661,9 @@ hr {
     background-color: #3c42fb;
     color: white;
     border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c42fb;
 
   }
 
@@ -663,8 +671,11 @@ hr {
     background-color: #3c42fb;
     color: white;
     border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c42fb;
 
-  } */
+  }
 
   .info2 {
     grid-column: 1/-1;
@@ -954,6 +965,16 @@ hr {
     font-size: 17px;
   }
 
+}
+
+@media (max-width:500px) {
+  .dashboard-content {
+    grid-template-columns: 330px;
+  }
+
+  .opt a{
+    width: 460px;
+  }
 }
 
 /* Footer */
