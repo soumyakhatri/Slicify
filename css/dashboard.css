@@ -552,7 +552,7 @@ hr {
   }
 
   .opt:hover{
-    background-color: #3C42FB;
+    background-color: #DFDFDF;
     color: #fff;
   }
 
@@ -623,8 +623,8 @@ hr {
   }
 
    .opt1 a:hover, .opt2 a:hover, .opt3 a:hover, .opt4 a:hover, .opt5 a:hover {
-    color: white;
-    background-color: #3C42FB;
+    color: black;
+    background-color: #DFDFDF;
     border-radius: 0;
   }
 
