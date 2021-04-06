@@ -2303,6 +2303,7 @@ i.icon-small {
     grid-template-rows: repeat(2, 94px);
     grid-template-columns: 94px 94px 94px;
     border-radius: 10px;
+    padding-top: 20px;
   }
 
   .Photographers {
