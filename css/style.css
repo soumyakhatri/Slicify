@@ -2296,7 +2296,7 @@ i.icon-small {
 
   .professions-section{
     overflow: hidden;
-    height: 683px;
+    /* height: 683px; */
   }
 
   .professions-section .left .up {
@@ -2857,6 +2857,11 @@ p.light{
     justify-content: center;
     justify-items: center;
     /* overflow: hidden; */
+  }
+
+  .pricing .pricing-section .heading{
+    padding-top:20px;
+    padding-bottom: 30px;
   }
 
   .pricing .pricing-section .pricing-content .box {
