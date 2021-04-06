@@ -2,6 +2,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
+
 body {}
 
 /* header */
@@ -382,7 +384,6 @@ img.front-img {
 .back-img{
   animation: moveUpLeft 6s ease-out 1s forwards;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
 }
 
 .front-img {
@@ -652,11 +653,12 @@ img.front-img {
     height: 150px;
     grid-column:1/2;
     grid-row: 1/2;
-    animation: moveUpLeft-sm 1s ease-out 2s forwards;
+    animation: moveUpLeft-sm 6s ease-out 1s forwards;
+    animation-iteration-count: infinite;
 
   }
 
-  @keyframes moveUpLeft-sm{
+  /* @keyframes moveUpLeft-sm{
     0% {
       transform: translate(0.0);
     }
@@ -664,7 +666,49 @@ img.front-img {
     100% {
       transform: translate(-7px, -21px);
     }
+  } */
+
+  /* New Animation */
+
+  @keyframes moveUpLeft-sm {
+    0% {
+      transform: translate(0.0);
+      }
+
+    16.66%{
+      transform: translate(0.0);
+
+    }
+
+    33.33%{
+      transform: translate(-7px, -21px);
+
+    }
+
+    50%{
+      transform: translate(-7px, -21px);
+
+    }
+
+    66.66%{
+      transform: translate(-7px, -21px);
+
+    }
+
+    83.33%{
+      transform: translate(0.0);
+
+    }
+
+    100%{
+      transform: translate(0.0);
+
+    }
+
   }
+
+
+  /* New animation closed */
   .background{
     width: 330px;
     right: 20px;
