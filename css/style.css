@@ -1121,6 +1121,7 @@ a.button:hover {
     grid-template-rows: repeat(23, 1fr);
     grid-template-columns: 10% 10% 1fr 10% 10%;
     padding: 0;
+    overflow: hidden;
   }
 
   .license .container-fluid .grid .big .big-content {
