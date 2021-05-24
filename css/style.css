@@ -3190,15 +3190,17 @@ footer h5 {
 @media (max-width:768px){
   .new-grid{
     grid-template-columns: 1fr;
-    grid-template-rows: 394px auto auto auto;
+    grid-template-rows: 394px auto 315px auto;
     grid-row-gap: 30px;
   }
   .new-img2{
     position: relative;
     right: 0!important;
+    height: 100%;
+    width: auto;
   }
 
-  .new-img2{
+  .new-img1{
     height: 100%;
     width: auto;
   }
