@@ -3010,6 +3010,10 @@ p.light{
   .svg1-f {
     display: none;
   }
+  .svg1-ps {
+    display: none;
+  }
+
 }
 
 
@@ -3194,9 +3198,15 @@ footer h5 {
     right: 0!important;
   }
 
+  .new-img2{
+    height: auto;
+    width: 100%;
+  }
+
   .top-left{
     grid-column: 1/2;
     grid-row: 1/2;
+    justify-content: center;
   }
 
   .top-right{
