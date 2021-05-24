@@ -3183,6 +3183,12 @@ footer h5 {
   }
   .new-grid .new-img1{
     width: 100%;
+    height: auto;
+  }
+
+  .new-grid .new-img2{
+    width: 100%;
+    height: auto;
   }
 
 }
