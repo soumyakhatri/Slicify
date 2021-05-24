@@ -3029,6 +3029,8 @@ p.light{
   }
 
 
+
+
 }
 
 /* Footer */
@@ -3242,5 +3244,9 @@ footer h5 {
 
   .professions .container .up{
     padding-bottom: 50px;
+  }
+
+  .professions .container h3{
+    font-size: 24px;
   }
 }
