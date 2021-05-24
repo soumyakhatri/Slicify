@@ -2760,6 +2760,10 @@ p.light{
 }
 
 @media (max-width:510px) {
+  .pricing{
+    padding-bottom: 30px;
+  }
+
   .pricing-content {
     display: grid;
     grid-template-columns: 7% 86% 7%;
