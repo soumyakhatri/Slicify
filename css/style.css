@@ -3239,7 +3239,7 @@ footer h5 {
 @media (max-width:624px) {
   .professions{
     padding-bottom: 0;
-    margin-bottom: 50px;
+    margin-bottom: 0;
   }
 
   .professions .container .up{
