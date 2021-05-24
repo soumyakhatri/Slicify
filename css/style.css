@@ -3020,7 +3020,7 @@ p.light{
     grid-row-gap: 40px;
     justify-content: center;
     justify-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 0;
     z-index: 2;
   }
 
@@ -3248,5 +3248,6 @@ footer h5 {
 
   .professions .container h3{
     font-size: 24px;
+    padding: 2%;
   }
 }
