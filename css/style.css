@@ -1388,7 +1388,7 @@ a.button:hover {
     grid-row: 2 / 3;
     grid-column: 4 / 5;
     align-self: flex-end;
-    transform: rotate(90deg);
+    transform: rotate(90deg)!important;
     height: 60%;
     position: relative;
     right: 60px;
