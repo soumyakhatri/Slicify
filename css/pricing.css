@@ -293,7 +293,7 @@ p.trial{
     margin-bottom: 30px;
   }
 }
-@media (max-width:400px){
+@media (max-width:411px){
   .pricing .section{
     padding: 0 5%;
   }
@@ -303,6 +303,7 @@ p.trial{
 
   .pricing h2{
     font-size: 22px;
+    padding: 10% 5% 0 5%;
   }
 
   .perks-heading{
