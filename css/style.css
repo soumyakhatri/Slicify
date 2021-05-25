@@ -3183,7 +3183,7 @@ footer h5 {
     grid-template-columns: 420px 420px;
   }
   .new-img1{
-    width: 100%;
+    width: 420px;
     height: auto;
   }
   .new-img2{
@@ -3201,7 +3201,7 @@ footer h5 {
   }
   .new-img1{
     height: auto;
-    width: 100%;
+    width: 520px;
   }
   .new-img2{
     position: relative;
