@@ -316,6 +316,9 @@ p.trial{
     padding-bottom: 0;
     margin-bottom: 0;
   }
+  .box.gold{
+    z-index: 0;
+  }
 }
 
 
