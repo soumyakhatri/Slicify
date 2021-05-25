@@ -966,19 +966,3 @@ footer h5 {
   display: none;
 }
 
-@media (max-width:500px) {
-  .fixed-buy-btn{
-    position: fixed;
-    bottom: 0;
-    width:100%;
-    display: block;
-    border-radius: 0;
-    padding: 0;
-}
-
-  .fixed-buy-btn .btn{
-    color: #fff!important;
-    width: 100%;
-    border-radius: 0
-  }
-}
