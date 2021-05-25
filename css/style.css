@@ -3197,6 +3197,7 @@ footer h5 {
   .new-grid{
     display: grid;
     grid-template-columns: 464px 464px;
+    grid-template-rows: 315px auto;
   }
   .new-img1{
     width: 464px;
@@ -3212,7 +3213,7 @@ footer h5 {
 @media (max-width:768px){
   .new-grid{
     grid-template-columns: 464px;
-    grid-template-rows: auto auto 315px auto;
+    grid-template-rows: 315px auto 315px auto;
     grid-row-gap: 30px;
   }
   .new-img1{
