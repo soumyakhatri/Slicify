@@ -57,10 +57,6 @@
   padding-right: 12%;
 }
 
-.header .btn-primary {
-  border-radius: 20px;
-}
-
 .header-second .nav {
   display: inline-block;
 }
@@ -92,19 +88,32 @@
   color: black;
 }
 
-.header-second .remove-background {
-  display: inline-block;
+
+.remove-btn{
   text-decoration: none;
-  color: black;
-  padding-left: 30px;
+  color: white!important;
+  background-color: #3C42FB;
+  border-radius: 7px;
+  padding: 8px 25px!important;
 }
 
-.header-second .remove-background a {
+.bulk-btn{
   text-decoration: none;
-  color: white;
-  background-color: blue;
-  border-radius: 20px;
-  padding: 10px 20px;
+  color: #3C42FB!important;
+  background-color: ##fff;
+  border-radius: 7px;
+  padding: 8px 25px!important;
+}
+
+.bulk-btn:hover{
+  color: #fff!important;
+  background-color: #3C42FB;
+}
+
+@media (max-width:991px) {
+  .remove-btn, .bulk-btn{
+    margin-top: 10px!important;
+  }
 }
 
 /* Pricing */
@@ -125,8 +134,9 @@
   margin-top: 70px;
   padding: 0 10%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: minmax(auto, 385px) minmax(auto, 385px) minmax(auto, 385px);
   grid-template-rows: 1fr;
+  justify-content: center;
 }
 
 .pricing .box{
@@ -295,7 +305,7 @@ p.trial{
     margin-bottom: 30px;
   }
 }
-@media (max-width:411px){
+@media (max-width:500px){
   .pricing .section{
     padding: 0 5%;
   }
@@ -965,4 +975,3 @@ footer h5 {
 .fixed-buy-btn{
   display: none;
 }
-
