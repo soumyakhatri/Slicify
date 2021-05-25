@@ -3179,32 +3179,36 @@ footer h5 {
 
 @media (max-width:1400px){
   .new-grid{
-    grid-template-columns: 320px 320px;
+    display: grid;
+    grid-template-columns: 420px 420px;
   }
-  .new-grid .new-img1{
-  
+  .new-img1{
+    width: 100%;
+    height: auto;
+  }
+  .new-img2{
+    width: 100%;
+    height: auto;
   }
 
 }
 
 @media (max-width:768px){
   .new-grid{
-    grid-template-columns: 1fr;
-    grid-template-rows: 394px auto 315px auto;
+    grid-template-columns: 520px;
+    grid-template-rows: auto auto 315px auto;
     grid-row-gap: 30px;
+  }
+  .new-img1{
+    height: auto;
+    width: 100%;
   }
   .new-img2{
     position: relative;
     right: 0!important;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
   }
-
-  .new-img1{
-    height: 100%;
-    width: auto;
-  }
-
   .top-left{
     grid-column: 1/2;
     grid-row: 1/2;
@@ -3215,6 +3219,7 @@ footer h5 {
     grid-column: 1/2;
     grid-row: 2/3;
     padding: 0;
+    text-align: center;
   }
 
   .bottom-left{
@@ -3230,6 +3235,7 @@ footer h5 {
     grid-row: 4/5;
     text-align: left;
     padding: 0;
+    text-align: center;
   }
 
 }
@@ -3242,7 +3248,6 @@ footer h5 {
 
   .new-img2{
     width: 100%;
-
   }
 
   .new-img1{
