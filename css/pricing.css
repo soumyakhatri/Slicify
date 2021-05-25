@@ -276,7 +276,9 @@ p.trial{
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
   }
-
+  .pricing{
+    padding-bottom: 0;
+  }
   .box.gold{
     grid-column: 1/2;
     grid-row: 1/2;
@@ -306,11 +308,6 @@ p.trial{
     padding: 10% 5% 0 5%;
   }
 
-  .perks-heading{
-    margin-bottom: 20px!important;
-    margin-top: 20px!important;
-  }
-
   .pricing{
     padding-bottom: 20px;
   }
@@ -326,7 +323,7 @@ p.trial{
 .perks{
   background-color: #F9F9F9;
   margin-top: 0;
-  padding: 5% 10%;
+  padding: 2% 10%;
 }
 
 .perks-section{
@@ -354,6 +351,19 @@ p.trial{
   flex-direction: column;
   justify-content: center;
   padding-left: 0;
+}
+
+@media (max-width:768px) {
+  .perks-heading{
+    font-size: 24px;
+  }
+}
+
+@media (max-width:411px) {
+  .perks-heading{
+    margin-bottom: 20px!important;
+    margin-top: 20px!important;
+  }
 }
 
 
