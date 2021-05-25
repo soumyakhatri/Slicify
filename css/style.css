@@ -3180,10 +3180,26 @@ footer h5 {
 @media (max-width:1400px){
   .new-grid{
     display: grid;
-    grid-template-columns: 420px 420px;
+    grid-template-columns: 464px 464px;
   }
   .new-img1{
-    width: 420px;
+    height: auto;
+    width: 464px;
+  }
+  .new-img2{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media (max-width:1200px){
+  .new-grid{
+    display: grid;
+    grid-template-columns: 464px 464px;
+  }
+  .new-img1{
+    width: 464px;
     height: auto;
   }
   .new-img2{
@@ -3195,13 +3211,13 @@ footer h5 {
 
 @media (max-width:768px){
   .new-grid{
-    grid-template-columns: 520px;
+    grid-template-columns: 464px;
     grid-template-rows: auto auto 315px auto;
     grid-row-gap: 30px;
   }
   .new-img1{
     height: auto;
-    width: 520px;
+    width: 464px;
   }
   .new-img2{
     position: relative;
